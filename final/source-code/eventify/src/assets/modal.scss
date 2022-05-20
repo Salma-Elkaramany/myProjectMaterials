@@ -1,0 +1,409 @@
+
+
+.modal {
+    /* Hidden by default */
+    display: block!important;
+    position: fixed; /* Stay in place */
+    z-index: 999999999!important; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+
+    .admin_event {
+        .header {
+            width: 100%;
+            justify-content: center;
+
+            p {
+                text-align: center;
+                width: 40%;
+                border-bottom: 1px solid gray;
+                font-size: 30px;
+            }
+        }
+        .modify {
+            display: flex;
+            flex-direction: row;
+            align-items: baseline;
+
+            input {
+                width: 70%;
+                margin-right: 20px;
+            }
+
+            button {
+                width: 20%;
+            }
+        }
+    }
+
+    .view_event {
+        width: 60%!important;
+
+        .header {
+            width: 100%;
+            justify-content: center;
+
+            p {
+                text-align: center;
+                width: 40%;
+                border-bottom: 1px solid gray;
+                font-size: 30px;
+            }
+        }
+
+        .modify {
+            display: flex;
+            flex-direction: row;
+            align-items: baseline;
+
+            p {
+                margin-right: 20px;
+                font-size: 20px;
+            }
+
+            input {
+                width: 70%;
+                margin-right: 20px;
+            }
+
+            button {
+                width: 20%;
+            }
+        }
+    }
+}
+  
+  /* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%!important;
+
+    span {
+        color: #aaaaaa;
+        /* float: right; */
+        font-size: 28px;
+        font-weight: bold;
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+    }
+
+    .enquiry {
+        display: flex;
+        flex-direction: column;
+
+        h1 {
+            text-align: center;
+        }
+
+        div {
+            p:nth-child(1) {
+                margin-bottom: 0px;
+                font-size: 20px;
+                margin-bottom: 10px;
+            }
+
+            p:nth-child(2) {
+                word-break: break-all;
+                max-height: 200px;
+                min-height: 100px;
+                overflow: auto;
+                border: 1px solid gray;
+                padding: 5px;
+            }
+
+            textarea {
+                width: 100%;
+                min-height: 100px;
+                max-height: 100px;
+                overflow: auto;
+                padding: 5px;
+                outline: none;
+            }
+        }
+
+        .confirm {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding: 0px!important;
+
+            button {
+                width: 20%;
+            }
+        }
+    }
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+.event {
+    .event_row {
+        p {
+            margin: 0px;
+        }
+
+        textarea {
+            border-color: #bdbcbc;
+            width: 100%;
+            max-height: 100px;
+            min-height: 100px;
+            outline: none;
+            border: 1px solid #827b7b;
+            overflow: auto;
+        }
+    }
+
+    .event_qr {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    span {
+        word-break: break-all;
+        text-align: center;
+        color: black;
+        font-weight: 400;
+    }
+}
+
+.qr {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+    p {
+        display: flex;
+        color: black;
+        font-size: 20px;
+
+        span {
+            font-size: 20px;
+            font-weight: 400;
+            margin-left: 10px;
+            color: black;
+        }
+    }
+    
+    .qrcode {
+        position: absolute;
+        right: 25vh;
+        top: 16vh;
+    }
+
+    
+}
+
+.print {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.confirm {
+    padding-top: 20%!important;
+
+    .confirm_action {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+    }
+
+    textarea {
+        outline: none;
+        max-height: 100px;
+        min-height: 100px;
+    }
+}
+
+.faq {
+    .faq_row {
+        p {
+            margin: 0px;
+        }
+    }
+
+    .faq_submit {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.admin_msg_modal {
+    h2 {
+        text-align: center;
+    }
+
+    .events {
+        overflow-y: auto;
+
+        .event {
+            width: 100%;
+            border: 1px solid gray;
+            padding: 10px;
+
+            div {
+                display: flex;
+                align-items: center;
+                width: 100%;
+
+                p {
+                    width: 30%;
+                }
+
+                span {
+                    width: 70%;
+                    align-items: self-start;
+                    font-size: 20px;
+                    word-break: break-word;
+                    color: black;
+                    font-weight: 300;
+                }
+            }
+
+            p {
+                margin: 0px;
+            }
+
+            .action {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+            }
+        }
+    }
+    
+    .questions {
+        max-height: 70vh;
+        overflow-y: auto;
+
+        .question {
+            width: 100%;
+            border: 1px solid gray;
+            padding: 10px;
+
+            div {
+                align-items: center;
+                display: flex;
+                width: 100%;
+                margin-top: 10px;
+
+                p {
+                    font-size: 19px;
+                    width: 20%;
+                }
+
+                span {
+                    width: 70%;
+                    align-items: self-start;
+                    font-size: 20px;
+                    word-break: break-word;
+                    color: black;
+                    font-weight: 300;
+                }
+            }
+
+            p {
+                margin: 0px;
+            }
+
+            .action {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+
+                button:nth-child(1) {
+                    margin-right: 20px;
+                }
+            }
+        }
+    }
+
+    .user_msg {
+        max-height: 70vh;
+        overflow-y: auto;
+
+        .question {
+            width: 100%;
+            border: 1px solid gray;
+            padding: 10px;
+
+            div {
+                align-items: center;
+                display: flex;
+                width: 100%;
+                margin-top: 10px;
+
+                p {
+                    font-size: 19px;
+                    width: 20%;
+                }
+
+                span {
+                    width: 70%;
+                    border: 1px solid gray;
+                    align-items: self-start;
+                    font-size: 20px;
+                    word-break: break-word;
+                    color: black;
+                    font-weight: 300;
+                }
+            }
+
+            div:nth-child(2), div:nth-child(3) {
+                span {
+                    max-height: 100px;
+                    overflow-y: auto;
+                }
+            }
+
+            div:nth-child(4) {
+                justify-content: end;
+            }
+
+            p {
+                margin: 0px;
+            }
+
+            .action {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+            }
+        }
+    }
+
+}

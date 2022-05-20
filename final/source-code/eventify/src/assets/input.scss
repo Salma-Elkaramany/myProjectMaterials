@@ -1,0 +1,36 @@
+
+
+.input {
+    width: 100%;
+    outline: none;
+    transition: 0.3s;
+}
+
+.check_input {
+    background-color: #eaeff2;
+    border: 0px;
+    box-shadow: -13px 1px 36px #9bb2c1, 0 0 16px #eaeff2;
+    border-radius: 6px;
+    padding: 5px 10px;
+}
+
+.check_input:focus {
+    box-shadow: -13px 1px 36px #728490, 0 0 16px #eaeff2;
+}
+
+.image {
+    opacity: 0;
+    position: absolute;
+    left: 0px;
+    height: 100%;
+}
+
+.default {
+    border: 1px solid hsl(0deg 1% 74%);
+    padding: 5px;
+}
+
+.check {
+    width: 25px;
+    height: 25px;
+}

@@ -1,0 +1,112 @@
+body {
+    margin: 0px!important;
+    background-color: #ecf0f3!important;
+
+    .check_logo {
+        position: fixed;
+        top: 1em;
+        left: 1em;
+        color: hsl(252deg 79% 46%);
+        font-size: 35px;
+
+        span {
+            color: black;
+            font-style: italic;
+            font-size: 30px;
+        }
+    }
+    .check_user {
+        margin-top: 12em;
+        
+
+        .box-shadow {
+            box-shadow: -13px 1px 36px #b2cbdd, 0 0 16px #eaeff2;
+        }
+
+        .layout {
+            padding: 1.25em;
+            border-radius: 0.625em;
+            display: flex;
+            text-align: center;
+            transition: 1s;
+
+            h3 {
+                font-family: sans-serif;
+            }
+
+            .pr-2 {
+                padding-right: 1.25em;   
+            }
+
+            .login_login {
+                padding: 1.875em;
+            }
+
+            .login_signup, .signup_login {
+                padding: 2.5em;
+
+                p {
+                    color: hsl(348deg 2% 59%);
+                    font-size: 13px;
+                    margin-top: 2em;
+                }
+            }
+
+            .signup_login {
+                height: 100%;
+                padding: 8.25em 0;
+
+                p {
+                    color: black;
+                    font-weight: 500;
+                }
+            }
+
+            .signup_signup {
+                padding: 0.625em 3.75em;
+
+                h3 {
+                    margin: 0px;
+                }
+            }
+        }
+    }
+}
+
+
+
+@media screen and (min-width: 0px) and (max-width: 780px) {
+    .check_logo{
+        display: none;
+    }
+
+    .check_user {
+        margin-top: 2em!important;
+
+        .layout {
+            display: block!important;
+
+            .pr-2 {
+                padding-right: 0px!important;
+            }
+
+            .login_signup, .signup_signup {
+                margin-top: 15px;
+            }
+
+            .signup_login {
+                padding: 2.5em!important;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 780px) and (max-width: 1024px) {
+    .check_logo{
+        display: none;
+    }
+
+    .check_user {
+        margin-top: 2em!important;
+    }
+}

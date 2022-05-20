@@ -1,0 +1,121 @@
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .total {
+        width: 80%;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: -2px 1px 25px #9ebcd1, 0 0 16px #eaeff2;
+        padding: 20px 7em;
+        position: relative;
+
+        .header {
+            width: 50%;
+            border-bottom: 1px solid black;
+            display: block;
+            text-align: center;
+
+            p {
+                font-size: 20px;
+            }
+        }
+
+        .actions_row {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+        
+            .ticket {
+                box-shadow: -2px 1px 25px #9ebcd1, 0 0 16px #eaeff2;
+                border-radius: 15px;
+                width: 200px;
+        
+                .head {
+                    width: 100%;
+                    box-shadow: -2px 1px 25px #9ebcd1, 0 0 16px #eaeff2;
+                    border-radius: 15px;
+                    padding: 15px;
+                    color: white;
+                    display: flex;
+                    align-items: center;
+        
+                    i {
+                        margin-right: 15px;
+                        font-size: 40px;
+                    }
+        
+                    p {
+                        font-size: 25px;
+                        margin-top: 0px;
+                        margin-bottom: 0px;
+                    }
+                }
+        
+                .body {
+                    padding: 10px 15px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 100%;
+        
+                    p {
+                        font-size: 13px;
+                        margin: 0px;
+                    }
+        
+                    a {
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+
+        .actions_row:nth-child(2) {
+            color: red;
+
+            .ticket:nth-child(1) {
+                .head {
+                    background-color: hsl(236deg 65% 35%);;
+                }
+                .body {
+                    color: hsl(236deg 65% 35%);;
+                }
+            }
+        
+            .ticket:nth-child(2) {
+                .head {
+                    background-color: hsl(236deg 57% 33%);
+                }
+                .body {
+                    color: hsl(236deg 57% 33%);
+                }
+            }
+        }
+
+        .actions_row:nth-child(3) {
+            .ticket:nth-child(1) {
+                .head {
+                    background-color: hsl(236deg 100% 80%);
+                }
+                .body {
+                    color: hsl(236deg 100% 80%);
+                }
+            }
+        
+            .ticket:nth-child(2) {
+                .head {
+                    background-color: hsl(252deg 79% 46%);
+                }
+                .body {
+                    color: hsl(252deg 79% 46%);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,180 @@
+
+
+.button {
+    outline: none;
+    border: 0px;
+    padding: 0px;
+    transition: 0.3s;
+}
+
+.forget_password, .enter_guest {
+    background-color: #ffffff00;
+    font-size: 15px;
+    border-bottom: 1px solid hsl(356deg 7% 60%);
+    color: hsl(356deg 7% 60%);
+}
+
+.forget_password:hover, .enter_guest:hover {
+    border-bottom: 1px solid hsl(356deg 5% 40%);
+    color: hsl(356deg 5% 40%);
+}
+
+.enter_guest {
+    font-style: italic;
+}
+
+.checked {
+    color: white;
+    padding: 5px 15px;
+    border-radius: 12px;
+    font-weight: 500;
+    border: 1px solid #ffffff00;
+    background-color: hsl(206deg 76% 50%);
+}
+
+.checked:hover {
+    color: hsl(206deg 76% 50%);
+    background-color: #ffffff00;
+    border: 1px solid hsl(206deg 76% 50%);
+}
+
+.info_update {
+    color: white;
+    padding: 5px 50px;
+    border: 1px solid hsl(236deg 65% 35%);
+    background-color: hsl(236deg 65% 35%);
+}
+
+.info_update:hover {
+    color: hsl(236deg 65% 35%);
+    background-color: #ffffff00;
+}
+
+.cancel_ticket {
+    position: absolute;
+    right: 35px;
+    bottom: 25px;
+    border: 1px solid hsl(236deg 65% 35%);
+    background-color: hsl(236deg 65% 35%);
+    padding: 5px 10px;
+    color: white;
+}
+
+.cancel_ticket:hover {
+    background-color: #ffffff00;
+    color: hsl(236deg 65% 35%);
+}
+
+.button_contact {
+    background-color: hsl(252deg 79% 46%);
+    border: 1px solid hsl(252deg 79% 46%);
+    color: white;    
+    position:absolute;
+    bottom: 17px;
+    right: 27px;
+    padding: 5px 10px;
+}
+
+.button_contact:hover {
+    background-color: #ffffff00;
+    color: hsl(252deg 79% 46%);
+}
+
+.modal_submit {
+    background-color: hsl(206deg 76% 50%);;
+    border: 1px solid hsl(206deg 76% 50%);;
+    color: white;
+    width: 100%;
+    bottom: 17px;
+    right: 27px;
+    padding: 5px 10px;
+}
+
+.confirm_btn {
+    background-color: hsl(236deg 100% 90%);
+    border: 1px solid hsl(236deg 100% 90%);
+    margin-right: 10px;
+    padding: 5px 10px;
+}
+
+.book {
+    max-width: 100px;
+    padding: 5px 10px;
+    border: 1px solid hsl(118deg 65% 35%);
+    margin-left: 15px;
+    background-color: hsl(118deg 65% 35%);
+    color: white;
+}
+
+.book:hover {
+    color: hsl(118deg 65% 35%);
+    background-color: #ffffff00;
+}
+
+.print_button {
+    background-color: hsl(252deg 79% 46%);
+    border: 1px solid hsl(252deg 79% 46%);
+    color: white;
+    padding: 5px 25px;
+}
+
+.print_button:hover {
+    background-color: #ffffff00;
+    color: hsl(252deg 79% 46%);
+}
+
+.book_red {
+    max-width: 100px;
+    padding: 5px 10px;
+    border: 1px solid hsl(0deg, 39%, 85%);
+    margin-left: 15px;
+    background-color: hsl(0deg, 39%, 85%);
+    color: black;
+}
+
+.update {
+    border: 1px solid hsl(236deg 65% 35%);
+    background-color: hsl(236deg 65% 35%);
+    padding: 5px 50px;
+    color: white;
+}
+
+.update:hover {
+    background-color: #ffffff00;
+    color: hsl(252deg 79% 46%);
+}
+
+.delete {
+    border: 1px solid hsl(0deg 97% 78%);
+    background-color: hsl(0deg 97% 78%);
+    padding: 5px 10px;
+    color: white;
+}
+
+.delete:hover {
+    background-color: #ffffff00;
+    color: hsl(0deg 97% 78%);
+}
+
+.processing_ticket {
+    color: white;
+    background-color: #ffffff00;
+    border: 0px;
+    position: absolute;
+    right: 35px;
+    bottom: 25px;
+    font-size: 25px;
+}
+
+.answer_faq, .msgDelete {
+    border: 1px solid hsl(123deg 82% 43%);
+    background-color: hsl(123deg 82% 43%);
+    padding: 5px 10px;
+    color: white;
+}
+
+.answer_faq:hover, .msgDelete:hover {
+    background-color: #ffffff00;
+    color: hsl(123deg 82% 43%);
+}
+

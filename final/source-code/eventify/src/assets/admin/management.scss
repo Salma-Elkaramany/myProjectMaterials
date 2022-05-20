@@ -1,0 +1,87 @@
+
+
+.management {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .total {
+        width: 80%;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: -2px 1px 25px #9ebcd1, 0 0 16px #eaeff2;
+        padding: 20px 7em;
+        position: relative;
+
+        .header {
+            width: 50%;
+            border-bottom: 1px solid black;
+            display: block;
+            text-align: center;
+
+            p {
+                font-size: 20px;
+            }
+        }
+
+        .body {
+            width: 100%;
+            overflow-y: auto;
+            padding-top: 30px;
+
+            .property {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                
+                p {
+                    width: 20%;
+                    margin-right: 30px;
+                    font-size: 20px;
+                    margin-bottom: 0px;
+                }
+
+                div {
+                    width: 60%;
+
+                    select {
+                        background-color: #eaeff2;
+                        border: 0px;
+                        box-shadow: -13px 1px 36px #9bb2c1, 0 0 16px #eaeff2;
+                        border-radius: 6px;
+                        padding: 5px 10px;
+                        width: 100%;
+                        outline: none;
+                    }
+                }
+            }
+
+            .actions {
+                display: flex;
+                flex-direction: row;
+
+                input {
+                    margin-right: 10px;
+                }
+
+                span {
+                    margin-right: 20px;
+                }
+            }
+        }
+
+        a {
+            position: absolute;
+            bottom: 18px;
+            right: 25px;
+
+            i {
+                color: hsl(252deg 79% 46%);
+                font-size: 44px;
+            }
+        }
+    }
+}

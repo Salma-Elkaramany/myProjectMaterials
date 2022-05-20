@@ -1,0 +1,81 @@
+
+
+.tickets {
+    height: 70vh;
+    overflow: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+
+    .ticket {
+        position: relative;
+        background-color: hsl(236deg 100% 90%);
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        padding: 10px 30px;
+        box-shadow: 5px 6px 5px #b5b1b1, 0 0 16px #eaeff2;
+
+        .text {
+            display: flex;
+
+            p {
+                margin-right: 10px;
+            }
+        }
+
+        p {
+            font-weight: 500;
+            margin: 0px;
+        }
+
+        a {
+            right: 45px;
+            font-size: 30px;
+            position: absolute;
+            cursor: pointer;
+        }
+    }
+
+    .ticket_pro_delete {
+        background-color: rgb(237 150 132);
+
+        .text {
+            p {
+                color: white;
+            }
+        }
+
+        p {
+            color: white;
+        }
+
+        a {
+            i {
+                color: white;
+            }
+        }
+    }
+
+    .ticket_confirm_delete {
+        background-color: rgb(226 83 54);
+
+        .text {
+            p {
+                color: white;
+            }
+        }
+
+        p {
+            color: white;
+        }
+
+        a {
+            i {
+                color: white;
+            }
+        }
+    }
+}
