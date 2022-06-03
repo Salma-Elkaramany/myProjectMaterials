@@ -1,3 +1,0 @@
-This is the extended submission for my presentation reocording...
-Please find attached the powerpoint presentation.
-You can also find the recorded video at https://www.youtube.com/smae/fj](https://youtu.be/p-2cClAY6cA) 
